@@ -1,5 +1,5 @@
 {% set name = "maps-cli" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/maps-cli-{{ version }}.tar.gz
-  sha256: 51a1bd6f04d3f1e27f6ca8add789c9cca1b8f1195c9f5ca54bd7ef3b220d1ffe
+  sha256: 111e7775f632a917cf51802221810520c40711a2d745a8516610390e4270ac56
 
 build:
   number: 0
